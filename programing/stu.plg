@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: stu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPDCAF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/stu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\Dialog1.cpp"
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\Dialog2.cpp"
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\Dialog3.cpp"
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\Dialog4.cpp"
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\stu.cpp"
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\stuDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPDCAF.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPDCC0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/stu.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\吉林医药学院本科\课程\Visual C++ MFC程序开发\12信管于汶平综合作业\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPDCC0.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPDCC1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/stu.pdb" /debug /machine:I386 /out:"Debug/stu.exe" /pdbtype:sept 
+".\Debug\Dialog1.obj"
+".\Debug\Dialog2.obj"
+".\Debug\Dialog3.obj"
+".\Debug\Dialog4.obj"
+".\Debug\StdAfx.obj"
+".\Debug\stu.obj"
+".\Debug\stuDlg.obj"
+".\Debug\stu.res"
+]
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSPDCC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Dialog1.cpp
+Dialog2.cpp
+Dialog3.cpp
+Dialog4.cpp
+stu.cpp
+stuDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+stu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
